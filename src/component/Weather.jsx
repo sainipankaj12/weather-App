@@ -1,4 +1,5 @@
 import img1 from "/src/assets/hot5.jpeg";
+import img2 from "/src/assets/pk.png";
 import { WiHumidity } from "react-icons/wi";
 import { HiMiniArrowUp } from "react-icons/hi2";
 import { MdCompress } from "react-icons/md";
@@ -72,7 +73,7 @@ function Weather() {
                 <h3 className="text-2xl"> {data.name}</h3>
                 <img
                   className=" h-16 w-16"
-                  src="./src/assets/pk.png"
+                  src={img2}
                   alt="img"
                 ></img>
                 <h3>{data?.sys?.country}</h3>
