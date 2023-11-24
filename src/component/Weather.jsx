@@ -1,5 +1,4 @@
 import img1 from "/src/assets/hot5.jpeg";
-import { IoMdRainy } from "react-icons/io";
 import { WiHumidity } from "react-icons/wi";
 import { HiMiniArrowUp } from "react-icons/hi2";
 import { MdCompress } from "react-icons/md";
